@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Nicolas Bregevin - Freelance Web</title>
 </head>
+
 <body>
 
   <!-- Navigation -->
@@ -24,32 +26,37 @@
   <!-- À propos -->
   <section id="about">
     <h2>À propos de moi</h2>
-    <p>Bonjour, Je suis Nicolas, développeur web freelance spécialisé dans la création de sites web simples, rapides et modernes. Mon objectif est de transformer vos idées en sites clairs et fonctionnels, tout en restant fidèle à une esthétique épurée.</p>
+    <p>Bonjour, Je suis Nicolas, développeur web freelance spécialisé dans la création de sites web simples, rapides et
+      modernes. Mon objectif est de transformer vos idées en sites clairs et fonctionnels, tout en restant fidèle à une
+      esthétique épurée.</p>
   </section>
 
-<!-- Portfolio / Réalisations -->
-<section id="portfolio">
-  <h2>Mes réalisations</h2>
-  <div class="portfolio">
-    <a href="https://sitevitrinerestaurantsakura.netlify.app/" target="_blank" rel="noopener noreferrer" class="project">
-      <h3>Site vitrine Restaurant</h3>
-      <div class="project-image">
-        <img src="app/images/apercu-restaurant.png" alt="Aperçu du site Restaurant Sakura" />
-        <div class="project-overlay">
-          <span>Voir le site →</span>
+  <!-- Portfolio / Réalisations -->
+  <section id="portfolio">
+    <h2>Mes réalisations</h2>
+    <div class="portfolio">
+      <a href="https://sitevitrinerestaurantsakura.netlify.app/" target="_blank" rel="noopener noreferrer"
+        class="project">
+        <h3>Site vitrine Restaurant</h3>
+        <div class="project-image">
+          <img src="app/images/apercu-restaurant.png" alt="Aperçu du site Restaurant Sakura" />
+          <div class="project-overlay">
+            <span>Voir le site →</span>
+          </div>
         </div>
-      </div>
-      <p>Un site pour un restaurant local avec menu horaires et adresse, design avec animation fluide et responsive.</p>
-    </a>
-  </div>
-</section>
+        <p>Un site pour un restaurant local avec menu horaires et adresse, design avec animation fluide et responsive.
+        </p>
+      </a>
+    </div>
+  </section>
 
   <!-- Contact -->
   <section id="contact">
     <h2>Contactez-moi</h2>
-    <form action="mailto:nicolasbregevin39@gmail.com" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Votre nom" required>
-      <input type="email" name="email" placeholder="Votre e-mail" required>
+    <form name="contact" method="POST" data-netlify="true" autocomplete="on">
+      <input type="hidden" name="form-name" value="contact">
+      <input type="text" name="name" placeholder="Votre nom" autocomplete="name" required>
+      <input type="email" name="email" placeholder="Votre e-mail" autocomplete="email" required>
       <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
       <button type="submit">Envoyer</button>
     </form>
@@ -61,4 +68,5 @@
   </footer>
 
 </body>
+
 </html>

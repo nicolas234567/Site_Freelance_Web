@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <title>Nicolas Bregevin - Freelance Web</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#portfolio">Réalisations</a>
+    <a href="#technologies">Technologies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+<main>
+  <!-- Header -->
+  <header>
+    <h1>Nicolas Bregevin</h1>
+    <p>Développeur web freelance</p>
+  </header>
+
+  <!-- À propos -->
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>Bonjour, Je suis Nicolas, développeur web freelance spécialisé dans la création de sites web simples, rapides et
+      modernes. Mon objectif est de transformer vos idées en sites clairs et fonctionnels, tout en restant fidèle à une
+      esthétique épurée.</p>
+  </section>
+
+    <!-- Technologies -->
+  <section id="technologies">
+    <h2>Technologies</h2>
+    <div class="tech-grid">
+      <div class="tech-item">
+        <i class="devicon-html5-plain colored"></i>
+        <span>HTML</span>
+      </div>
+      <div class="tech-item">
+        <i class="devicon-css3-plain colored"></i>
+        <span>CSS</span>
+      </div>
+      <div class="tech-item">
+        <i class="devicon-javascript-plain colored"></i>
+        <span>JavaScript</span>
+      </div>
+      <div class="tech-item">
+        <i class="devicon-mysql-plain colored"></i>
+        <span>MySQL</span>
+      </div>
+      <div class="tech-item">
+        <i class="devicon-php-plain colored"></i>
+        <span>PHP</span>
+      </div>
+      <div class="tech-item">
+        <i class="devicon-nextjs-plain"></i>
+        <span>Next.js</span>
+      </div>
+      <div class="tech-item">
+        <i class="devicon-symfony-original"></i>
+        <span>Symfony</span>
+      </div>
+      <div class="tech-item">
+        <i class="devicon-git-plain colored"></i>
+        <span>Git</span>
+      </div>
+      <div class="tech-item">
+        <i class="devicon-bootstrap-plain colored"></i>
+        <span>Bootstrap</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio / Réalisations -->
+  <section id="portfolio">
+    <h2>Mes réalisations</h2>
+    <div class="portfolio">
+      <a href="https://sitevitrinerestaurantsakura.netlify.app/" target="_blank" rel="noopener noreferrer"
+        class="project">
+        <h3>Site vitrine Restaurant</h3>
+        <div class="project-image">
+          <img src="app/images/apercu-restaurant.png" alt="Aperçu du site Restaurant Sakura" />
+          <div class="project-overlay">
+            <span>Voir le site →</span>
+          </div>
+        </div>
+        <p>Un site pour un restaurant local avec menu horaires et adresse, design avec animation fluide et responsive.
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form name="contact" method="POST" data-netlify="true" autocomplete="on" action="/merci.html">
+      <input type="hidden" name="form-name" value="contact">
+      <input type="text" name="name" placeholder="Votre nom" autocomplete="name" required>
+      <input type="email" name="email" placeholder="Votre e-mail" autocomplete="email" required>
+      <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+</main>
+  <!-- Footer -->
+  <footer>
+    &copy; 2026 Nicolas Bregevin | Tous droits réservés
+  </footer>
+
+</body>
+
+</html>

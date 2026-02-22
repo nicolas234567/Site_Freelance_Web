@@ -379,4 +379,17 @@ footer {
     #contact {
         padding: 35px 25px;
     }
+
+    @media (max-width: 600px) {
+  nav {
+    align-items: center;
+    gap: 10px;
+    padding: 14px 10px;
+  }
+
+  nav a {
+    font-size: 0.82em;
+    letter-spacing: 1px;
+  }
+}
 }

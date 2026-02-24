@@ -2,20 +2,12 @@
 
 > ✅ Site optimisé SEO — meta tags, Schema.org, Open Graph, WebP, Core Web Vitals.
 
-**[nicolasbregevin.fr](https://nicolasbregevin.fr)**
+**https://nicolasbregevin.netlify.app/**
 
 ---
 
 ## Déploiement (Netlify)
 
-```
-Publish directory : .
-Build command     : (vide)
-```
-
-Ouvrir **https://nicolasbregevin.fr**
-
----
 
 ## Stack technique
 
@@ -76,4 +68,4 @@ Site_Freelance_Web/
 
 Portfolio vitrine pour développeur web freelance en HTML statique.
 
-[nicolasbregevin.fr](https://nicolasbregevin.fr)
+https://nicolasbregevin.netlify.app/

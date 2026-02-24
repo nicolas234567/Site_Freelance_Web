@@ -405,3 +405,17 @@ footer {
         letter-spacing: 1px;
     }
 }
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 0.62em;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 320px) {
+    nav a {
+        font-size: 0.52em;
+        letter-spacing: 1px;
+    }
+}

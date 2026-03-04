@@ -1,6 +1,6 @@
 # Nicolas Bregevin — Portfolio Développeur Web Freelance
 
-> ✅ Site optimisé SEO — meta tags, Schema.org, Open Graph, WebP, Core Web Vitals.
+> Site optimisé SEO — meta tags, Schema.org, Open Graph, WebP, Core Web Vitals.
 
 **https://nicolasbregevin.netlify.app/**
 

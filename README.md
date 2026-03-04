@@ -1,6 +1,8 @@
 # Nicolas Bregevin — Portfolio Développeur Web Freelance
 
-> Site optimisé SEO — meta tags, Schema.org, Open Graph, WebP, Core Web Vitals.
+> Portfolio personnel optimisé pour les Core Web Vitals, le SEO et l’accessibilité.
+
+Le site est optimisé à 100/100 dans les quatre catégories principales de Lighthouse, aussi bien sur mobile que sur desktop.
 
 **https://nicolasbregevin.netlify.app/**
 

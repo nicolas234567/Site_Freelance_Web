@@ -80,7 +80,7 @@ header {
 header::before {
     content: '</>';
     position: absolute;
-    font-size: 14em;
+    font-size: 10em;
     color: rgba(0, 188, 212, 0.08);
     right: 5%;
     top: 50%;
@@ -121,7 +121,7 @@ header p {
 /* --- Sections --- */
 section {
     padding: 80px 20px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -171,20 +171,55 @@ section h2::after {
     line-height: 2;
 }
 
+/* --- Technologies --- */
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tech-item i {
+  font-size: 3rem;
+}
+
+.tech-item span {
+  font-size: 0.9rem;
+}
+
 /* --- Portfolio --- */
+#portfolio {
+    max-width: 100%;
+    padding: 80px 40px;
+}
+
 .portfolio {
     display: flex;
     flex-wrap: wrap;
+    gap: 28px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
     justify-content: center;
-    gap: 24px;
+}
+
+.portfolio > article {
+    flex: 1 1 320px;
+    max-width: 420px;
 }
 
 .project {
     background: #ffffff;
     padding: 22px;
     border: 1px solid #ddeef5;
-    width: 100%;
-    max-width: 600px;
     text-align: center;
     border-radius: 16px;
     display: flex;
@@ -238,7 +273,7 @@ section h2::after {
     overflow: hidden;
     border-radius: 10px;
     width: 100%;
-    height: 210px;
+    aspect-ratio: 16 / 10;
 }
 
 .project-image img {
@@ -336,7 +371,7 @@ footer {
 }
 
 /* --- Responsive --- */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     header h1 {
         font-size: 2em;
     }
@@ -346,13 +381,37 @@ footer {
         opacity: 0.5;
     }
 
-    .portfolio {
-        flex-direction: column;
-        align-items: center;
+    #portfolio {
+        padding: 40px 20px;
     }
 
     #about,
     #contact {
         padding: 35px 25px;
+    }
+
+    nav {
+        align-items: center;
+        gap: 10px;
+        padding: 14px 10px;
+    }
+
+    nav a {
+        font-size: 0.82em;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 0.62em;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 320px) {
+    nav a {
+        font-size: 0.52em;
+        letter-spacing: 1px;
     }
 }

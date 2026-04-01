@@ -45,17 +45,20 @@
     "name": "Nicolas Bregevin",
     "jobTitle": "Développeur Web Freelance",
     "url": "https://nicolasbregevin.fr/",
-    "description": "Développeur web freelance spécialisé dans la création de sites web simples, rapides et modernes.",
+    "description": "Développeur web freelance spécialisé dans la création de sites web rapides, modernes et optimisés SEO.",
     "areaServed": "France",
     "priceRange": "€€",
-    "knowsAbout": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Next.js", "Symfony", "Bootstrap"],
+    "knowsAbout": ["HTML", "CSS", "JavaScript", "PHP", "PostgreSQL", "MySQL", "Next.js", "React", "Symfony", "Linux", "SEO"],
     "offers": {
       "@type": "Offer",
-      "description": "Création de sites web sur mesure pour particuliers et professionnels"
+      "description": "Création de sites web sur mesure pour PME et entrepreneurs, de la conception à la mise en production"
     }
   }
   </script>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -72,17 +75,17 @@
   <main>
     <!-- Header -->
     <header>
-      <h1>Nicolas Bregevin – Développeur Web Freelance</h1>
-      <p>Création de sites web modernes, rapides et sur mesure</p>
+      <h1>Développeur Web Freelance – Sites sur mesure, rapides et optimisés SEO</h1>
+      <p>Nicolas Bregevin – Création de sites web modernes adaptés à vos besoins</p>
     </header>
 
     <!-- À propos -->
     <section id="about" aria-labelledby="about-title">
       <h2 id="about-title">À propos de moi</h2>
-      <p>Bonjour, je suis Nicolas, développeur web freelance spécialisé dans la création de sites web simples, rapides et
-        modernes. <br>Basé en France, j'accompagne particuliers, artisans et petites entreprises dans la conception de leur
-        présence en ligne : sites vitrines, e-commerce, prises de rendez-vous et bien plus. <br>Mon objectif est de transformer
-        vos idées en sites clairs et fonctionnels, tout en restant fidèle à une esthétique épurée. <br>Vous avez un projet ?
+      <p>Bonjour, je suis Nicolas, développeur web freelance spécialisé dans la création de sites web rapides, modernes et
+        optimisés pour le référencement (SEO). <br>Basé en France, j'accompagne PME et entrepreneurs dans la conception de leur
+        présence en ligne : sites vitrines, e-commerce, prises de rendez-vous et bien plus. <br>Je gère l'ensemble du projet,
+        de la conception à la mise en production, pour vous livrer un site performant et prêt à être trouvé sur Google. <br>Vous avez un projet ?
         <a href="#contact">Contactez-moi pour un devis gratuit.</a></p>
     </section>
 
@@ -116,8 +119,8 @@
         </div>
 
         <div class="tech-item">
-          <img src="app/icons/mysql.svg" width="60" height="60" alt="MySQL">
-          <span>MySQL</span>
+          <img src="app/icons/postgresql.svg" width="60" height="60" alt="PostgreSQL">
+          <span>PostgreSQL</span>
         </div>
 
         <div class="tech-item">
@@ -131,13 +134,13 @@
         </div>
 
         <div class="tech-item">
-          <img src="app/icons/git.svg" width="60" height="60" alt="Git">
-          <span>Git</span>
+          <img src="app/icons/react.svg" width="60" height="60" alt="React">
+          <span>React</span>
         </div>
 
         <div class="tech-item">
-          <img src="app/icons/bootstrap.svg" width="60" height="60" alt="Bootstrap">
-          <span>Bootstrap</span>
+          <img src="app/icons/git.svg" width="60" height="60" alt="Git">
+          <span>Git</span>
         </div>
       </div>
     </section>
@@ -146,41 +149,6 @@
     <section id="portfolio" aria-labelledby="portfolio-title">
       <h2 id="portfolio-title">Mes réalisations</h2>
       <div class="portfolio">
-
-    <article class="project-wrapper" itemscope itemtype="https://schema.org/CreativeWork">
-      <meta itemprop="name" content="Site de commande en ligne – Foodtruck">
-      <meta itemprop="url" content="https://foodtruckdemolivraison.netlify.app/">
-      <a href="https://foodtruckdemolivraison.netlify.app/"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="project"
-         aria-label="Voir le site Livraison Foodtruck">
-
-        <h3>Site de commande en ligne – Foodtruck</h3>
-        <div class="project-image">
-          <picture>
-            <source srcset="
-            app/images/apercu_foodtruck-320.webp 320w,
-            app/images/apercu_foodtruck-640.webp 640w,
-            app/images/apercu_foodtruck-900.webp 900w"
-            sizes="(max-width: 600px) 320px,
-                   (max-width: 1200px) 640px,
-                   900px"
-            type="image/webp">
-            <img src="app/images/apercu_foodtruck-900.png"
-                 alt="Site de commande en ligne pour Foodtruck avec panel administrateur"
-                 width="900"
-                 height="506"
-                 loading="lazy">
-          </picture>
-          <div class="project-overlay">
-            <span>Voir le site →</span>
-          </div>
-        </div>
-        <p>Site de gestion de commandes pour un Foodtruck avec panel administrateur : gestion des produits, suivi et statut des commandes en temps réel.</p>
-      </a>
-    </article>
-
 
     <!-- Restaurant -->
     <article class="project-wrapper" itemscope itemtype="https://schema.org/CreativeWork">
@@ -213,43 +181,7 @@
             <span>Voir le site →</span>
           </div>
         </div>
-        <p>Site vitrine pour un restaurant local avec menu, horaires et adresse. Design animé, fluide et responsive.</p>
-      </a>
-    </article>
-
-
-    <!-- Garage -->
-    <article class="project-wrapper" itemscope itemtype="https://schema.org/CreativeWork">
-      <meta itemprop="name" content="Site vitrine garage – Prise de rendez-vous en ligne">
-      <meta itemprop="url" content="https://garagevitrine.netlify.app/">
-      <a href="https://garagevitrine.netlify.app/"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="project"
-         aria-label="Voir le site Garage avec prise de RDV">
-         
-        <h3>Site vitrine garage – Prise de rendez-vous en ligne</h3>
-        <div class="project-image">
-          <picture>
-            <source srcset="
-            app/images/apercu_garage-320.webp 320w,
-            app/images/apercu_garage-640.webp 640w,
-            app/images/apercu_garage-900.webp 900w"
-            sizes="(max-width: 600px) 320px,
-                   (max-width: 1200px) 640px,
-                   900px"
-            type="image/webp">
-            <img src="app/images/apercu_garage-900.png"
-                 alt="Site vitrine garage Autoprecision avec prise de rendez-vous en ligne"
-                 width="900"
-                 height="506"
-                 loading="lazy">
-          </picture>
-          <div class="project-overlay">
-            <span>Voir le site →</span>
-          </div>
-        </div>
-        <p>Site vitrine pour garage avec prise de rendez-vous en ligne et mise en avant des avis clients.</p>
+        <p>Site vitrine pour un restaurant japonais fictif, avec le menu, les horaires et l'adresse. Design soigné, animations fluides et bien visible sur mobile.</p>
       </a>
     </article>
 
@@ -278,6 +210,42 @@
             <img src="app/images/apercu_coiffeur-900.png"
                  alt="Site vitrine coiffeur avec prise de rendez-vous en ligne"
                  width="900"
+                 height="499"
+                 loading="lazy">
+          </picture>
+          <div class="project-overlay">
+            <span>Voir le site →</span>
+          </div>
+        </div>
+        <p>Site vitrine pour un salon de coiffure, avec la liste des prestations et un système de prise de rendez-vous en ligne pour éviter les appels manqués.</p>
+      </a>
+    </article>
+
+
+    <!-- Garage -->
+    <article class="project-wrapper" itemscope itemtype="https://schema.org/CreativeWork">
+      <meta itemprop="name" content="Site vitrine garage – Prise de rendez-vous en ligne">
+      <meta itemprop="url" content="https://garagevitrine.netlify.app/">
+      <a href="https://garagevitrine.netlify.app/"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="project"
+         aria-label="Voir le site Garage avec prise de RDV">
+
+        <h3>Site vitrine garage – Prise de rendez-vous en ligne</h3>
+        <div class="project-image">
+          <picture>
+            <source srcset="
+            app/images/apercu_garage-320.webp 320w,
+            app/images/apercu_garage-640.webp 640w,
+            app/images/apercu_garage-900.webp 900w"
+            sizes="(max-width: 600px) 320px,
+                   (max-width: 1200px) 640px,
+                   900px"
+            type="image/webp">
+            <img src="app/images/apercu_garage-900.png"
+                 alt="Site vitrine garage Autoprecision avec prise de rendez-vous en ligne"
+                 width="900"
                  height="506"
                  loading="lazy">
           </picture>
@@ -285,7 +253,43 @@
             <span>Voir le site →</span>
           </div>
         </div>
-        <p>Site vitrine pour coiffeur avec prise de rendez-vous en ligne.</p>
+        <p>Site vitrine pour un garage, avec un formulaire de prise de rendez-vous en ligne et une section avis clients pour rassurer les visiteurs avant qu'ils appellent.</p>
+      </a>
+    </article>
+
+
+    <!-- Foodtruck -->
+    <article class="project-wrapper" itemscope itemtype="https://schema.org/CreativeWork">
+      <meta itemprop="name" content="Site de commande en ligne – Foodtruck">
+      <meta itemprop="url" content="https://foodtruckdemolivraison.netlify.app/">
+      <a href="https://foodtruckdemolivraison.netlify.app/"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="project"
+         aria-label="Voir le site Livraison Foodtruck">
+
+        <h3>Site de commande en ligne – Foodtruck</h3>
+        <div class="project-image">
+          <picture>
+            <source srcset="
+            app/images/apercu_foodtruck-320.webp 320w,
+            app/images/apercu_foodtruck-640.webp 640w,
+            app/images/apercu_foodtruck-900.webp 900w"
+            sizes="(max-width: 600px) 320px,
+                   (max-width: 1200px) 640px,
+                   900px"
+            type="image/webp">
+            <img src="app/images/apercu_foodtruck-900.png"
+                 alt="Site de commande en ligne pour Foodtruck avec panel administrateur"
+                 width="900"
+                 height="506"
+                 loading="lazy">
+          </picture>
+          <div class="project-overlay">
+            <span>Voir le site →</span>
+          </div>
+        </div>
+        <p>Site de commande en ligne pour un Foodtruck, avec un espace admin pour gérer les produits et suivre les commandes au fur et à mesure qu'elles arrivent.</p>
       </a>
     </article>
 

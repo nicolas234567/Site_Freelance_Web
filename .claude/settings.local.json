@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(magick -version)",
+      "Bash(convert -version)",
+      "Bash(cwebp -version)",
+      "Bash(ffmpeg -version)",
+      "Bash(node -e \"require\\('sharp'\\)\")",
+      "Bash(python3 -c \"from PIL import Image; print\\('Pillow available'\\)\")",
+      "Bash(python -c \"from PIL import Image; print\\('Pillow available'\\)\")",
+      "Bash(npm list:*)",
+      "Bash(pip install:*)",
+      "Bash(python -c ':*)",
+      "Bash(curl -s \"https://www.svgrepo.com/download/354200/postgresql.svg\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://www.svgrepo.com/download/354200/postgresql.svg\")",
+      "Bash(curl -s \"https://www.svgrepo.com/download/303301/postgresql-logo.svg\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg\")"
+    ]
+  }
+}

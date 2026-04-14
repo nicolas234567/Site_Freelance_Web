@@ -4,12 +4,15 @@
 
 Le site est optimisé à 100/100 dans les quatre catégories principales de Lighthouse, aussi bien sur mobile que sur desktop.
 
-**https://nicolasbregevin.netlify.app/**
+**https://nicolasbregevin.com/**
 
 ---
 
 ## Déploiement (Netlify)
-
+```
+Déploiement sur Netlify
+Domaine et DNS sur CloudFlare     
+```
 
 ## Stack technique
 
@@ -37,7 +40,7 @@ Site_Freelance_Web/
         ├── apercu_restaurant.png
         ├── apercu_garage.webp
         ├── apercu_garage.png
-        └── og-preview.webp           ← Image Open Graph 1200×630
+        └── og-preview.webp       
 ```
 
 ---
@@ -49,7 +52,7 @@ Site_Freelance_Web/
 | Balises meta | `title`, `description`, `author`, `robots`, `theme-color`, canonical |
 | Réseaux sociaux | Open Graph + Twitter Card avec image 1200×630px |
 | Données structurées | Schema.org `Person` + `ProfessionalService`, `CreativeWork` sur chaque projet |
-| Images | Converties en WebP (-86% à -98%), balise `<picture>` avec fallback PNG |
+| Images | Converties en WebP (optimisation taille de -86% à -98%), balise `<picture>` avec fallback PNG |
 | Performance | `loading="lazy"`, `width`/`height` explicites, CSS non-bloquant, `preconnect` CDN |
 | Sémantique | `<main>`, `<article>`, `aria-label`, `aria-labelledby`, `itemprop` |
 | Indexation | `sitemap.xml`, `robots.txt`, `merci.html` en `noindex` |
@@ -70,4 +73,4 @@ Site_Freelance_Web/
 
 Portfolio vitrine pour développeur web freelance en HTML statique.
 
-https://nicolasbregevin.netlify.app/
+https://nicolasbregevin.com/
